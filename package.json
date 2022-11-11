@@ -18,7 +18,8 @@
     "dev": "vite --config ./build/base.config.ts --host",
     "build:lib": "vue-tsc --noEmit && vite build --config ./build/lib.config.ts",
     "build:doc": "vue-tsc --noEmit && vite build --config ./build/doc.config.ts && node ./script/copyDir.js",
-    "create": "node ./script/genNewComp/index.js"
+    "create": "node ./script/genNewComp/index.js",
+    "deploy": "bash deploy.sh"
   },
   "dependencies": {
     "axios": "^1.1.3",
