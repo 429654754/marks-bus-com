@@ -1,0 +1,14 @@
+[
+  {
+    "compName": "Button",
+    "compZhName": "按钮",
+    "compDesc": "这是一个按钮",
+    "compClassName": "button"
+  },
+  {
+    "compName": "TableBox",
+    "compZhName": "后台表格组件",
+    "compDesc": "用于后台表格",
+    "compClassName": "table-box"
+  }
+]
